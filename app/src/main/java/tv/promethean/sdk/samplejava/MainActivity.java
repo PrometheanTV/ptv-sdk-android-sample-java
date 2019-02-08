@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     static private final String SAMPLE_VIDEO_URL = "http://184.72.239.149/vod/smil:BigBuckBunny.smil/playlist.m3u8";
     static private final String SAMPLE_CHANNEL_ID = "5c50eefce6f94249a2e104b3";
-    static private final String SAMPLE_STREAM_ID = "5c50eefc060ef24b3d50ca49";
+    static private final String SAMPLE_STREAM_ID = "5c5273cd5b88da1e6943200b";
 
     private SimpleExoPlayerView exoplayerView;
     private SimpleExoPlayer exoplayer;
