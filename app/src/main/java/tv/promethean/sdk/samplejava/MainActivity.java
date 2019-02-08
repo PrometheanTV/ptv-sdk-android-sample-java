@@ -87,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
         OverlayData overlayData = new OverlayData.Builder()
                 .setChannelId(SAMPLE_CHANNEL_ID)
                 .setStreamId(SAMPLE_STREAM_ID)
+                .setStreamType(OverlayData.StreamType.VOD)
                 .setDebug(true)
                 .build();
 
