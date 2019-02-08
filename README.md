@@ -1,6 +1,6 @@
-# Android Sample Player Application
+# Android Sample Player Java Application
 
-Sample Google ExoPlayer application implementing the PTV SDK.
+Sample Google ExoPlayer application implementing the PTV SDK in Java.
 
 ## Example
 
