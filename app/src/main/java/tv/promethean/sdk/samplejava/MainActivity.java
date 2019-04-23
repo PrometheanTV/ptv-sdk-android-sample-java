@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        // Add player change listener to determine overlay visibility.
         exoplayer.addListener(new Player.DefaultEventListener() {
             @Override
             public void onPlayerStateChanged(boolean playWhenReady, int playbackState) {
