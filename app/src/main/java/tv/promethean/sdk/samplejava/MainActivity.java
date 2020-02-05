@@ -114,8 +114,11 @@ public class MainActivity extends AppCompatActivity {
         overlayManager.addOverlayListener(new DefaultOverlayEventListener() {
             @Override
             public void onConfigReady(@NotNull ConfigData configData) {
+                // Run on UI thread so player controls function correctly.
                 runOnUiThread(new Thread() {
                     public void run() {
+                        // Create a collection of media sources from the array of config
+                        // sources returned from the API.
                         for (StreamSource source : configData.getStreamSources()) {
                             MediaSource mediaSource = buildMediaSource(source.getUrl());
                             concatenatingMediaSource.addMediaSource(mediaSource);
